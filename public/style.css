@@ -1,0 +1,80 @@
+body {
+    background-color: #ccc;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.top {
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top * {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.today img {
+    transform: scale(1.5);
+}
+
+.today {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.today * {
+    font-size: 20px;
+}
+
+.forecasts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.forecast {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp {
+    font-size: 14px;
+    color: #444;
+}
+
+.weekday {
+    font-size: 14px;
+    font-weight: bold;
+}
+
